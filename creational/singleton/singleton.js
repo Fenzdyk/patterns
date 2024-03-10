@@ -8,11 +8,11 @@ class Counter {
 		Counter.instance = this;
 		return this;
 	}
-  
+
 	getCount() {
 		return this.count;
 	}
-  
+	
 	increaseCount() {
 		return this.count++;
 	}
